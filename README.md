@@ -1,5 +1,13 @@
 # Personal-Profile-using-React
 
+![image](https://github.com/gitbiruk2010/Personal-Profile-using-React/assets/103274295/bf08f7e0-7896-45dd-a3d7-788d9ff78024)
+![image](https://github.com/gitbiruk2010/Personal-Profile-using-React/assets/103274295/65ce562c-9123-47ae-9a0b-3a3d36527a85)
+![image](https://github.com/gitbiruk2010/Personal-Profile-using-React/assets/103274295/27930c4d-3131-4cf6-b409-967ef55573ab)
+![image](https://github.com/gitbiruk2010/Personal-Profile-using-React/assets/103274295/3bce1925-72cb-44f2-be19-5171348c9495)
+
+
+
+
 This is a simple personal profile React application that allows users to view information about the profile owner, navigate between different sections (Biography, About, and Hobbies), and learn about the hobbies of the profile owner.
 ## Setup
 Follow these instructions to set up the development environment and run the application locally.
