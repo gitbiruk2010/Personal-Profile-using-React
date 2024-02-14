@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: rgb(216, 216, 216);
+  color: darkblue;
+}
+
+
+img {
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.profilePic {
+  width: 120px; 
+  height: 120px; 
+  object-fit: cover; 
+  border: 2px solid blue;
+  border-radius: 50%;
+  transition: border-color 0.3s;
+}
+
+.profilePic:hover {
+  animation: rotateBorder 2s infinite linear; /* Animation for rotating border */
+}
+
+@keyframes rotateBorder {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h2 {
+  cursor: pointer;
+  color:rgb(0, 143, 131);
+}
+
+h2:hover {
+  color: rgb(18, 8, 109); 
+}
+
+.navbar {
+  background: linear-gradient(to right, #05232b, #0c3a80); 
+  background-size: 200% 100%;
+  animation: gradientAnimation 10s infinite alternate; 
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.navbar ul li:hover {
+  text-decoration: underline;
+}
+.navbar ul li.active {
+  color: rgb(0, 221, 184);
+}
